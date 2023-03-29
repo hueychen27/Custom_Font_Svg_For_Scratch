@@ -6,13 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Custom Font</title>
+    <style>
+        #div {
+            border: 1px black solid;
+        }
+    </style>
 </head>
 
 <body>
     <input type="text" id="input">
     <div id="div">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="487.47888" height="12.19968" viewBox="0,0,487.47888,12.19968" id="svg">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="999"
+            height="12.19968" viewBox="0,0,999,12.19968" id="svg">
+            <g transform="translate(30,-173.77308)">
                 <g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="#000000" fill-rule="nonzero" stroke="none"
                     stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
                     stroke-dasharray="" stroke-dashoffset="0" font-family="" font-weight="normal" font-size="40"
@@ -22,9 +28,12 @@
                         stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
                         stroke-dashoffset="0" font-family="" font-weight="normal" text-anchor="start"
                         style="mix-blend-mode: normal">
-                        <tspan x="0" dy="0">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890~!@#$%^&amp;*()_-+={[}]|\:;"'&lt;,&gt;.?/</tspan>
+                        <tspan x="0" dy="0">
+                            abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890~!@#$%^&amp;*()_-+={[}]|\:;"'&lt;,&gt;.?/
+                        </tspan>
                     </text>
                 </g>
+            </g>
         </svg>
     </div>
     <button onclick="download();">Download svg</button>
